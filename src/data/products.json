@@ -1,0 +1,102 @@
+
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate blogs, ads, and marketing copy using AI",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Unlimited AI generations", "50+ templates", "Grammar checker"],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Ready-made templates for social media and branding",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["200+ templates", "Fully editable", "Commercial license"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "High-quality images, videos, and graphics",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["1M+ assets", "HD quality", "No attribution"],
+    "icon": "📦"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive workflows easily",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "⚙️"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes in minutes",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["10+ templates", "ATS optimized", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Tools for creating engaging social content",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["500+ assets", "Scheduler included", "Analytics dashboard"],
+    "icon": "📱"
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Suite",
+    "description": "Edit videos with powerful tools and effects",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["4K export", "100+ effects", "Audio editing"],
+    "icon": "🎬"
+  },
+  {
+    "id": 8,
+    "name": "Website Builder Pro",
+    "description": "Build modern websites without coding",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Drag & drop builder", "SEO tools", "Hosting included"],
+    "icon": "🌐"
+  },
+  {
+    "id": 9,
+    "name": "Email Marketing Tool",
+    "description": "Create and manage email campaigns",
+    "price": 25,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Automation emails", "Templates", "Analytics tracking"],
+    "icon": "📧"
+  }
+]
