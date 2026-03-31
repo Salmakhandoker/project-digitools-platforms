@@ -1,13 +1,12 @@
-
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Stats from "./components/Stats";
+import PremiumToolsPage from "./components/PremiumToolsPage";
 import Steps from "./components/Steps";
 import Toggle from "./components/Toggle";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
-import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 
 import productsData from "./data/products.json";
@@ -39,20 +38,26 @@ function App() {
       <Navbar cartCount={cart.length} />
       <Banner />
       <Stats />
-      <Steps/>
-      <Toggle setView={setView} />
+      <Steps />
 
-      {view === "products" ? (
-        <Products products={productsData} addToCart={addToCart} />
-      ) : (
-        <Cart
-          cart={cart}
-          removeFromCart={removeFromCart}
-          checkout={checkout}
-        />
-      )}
+    {/* Toggle */}
+<Toggle setView={setView} />
 
-      <Pricing />
+{/* Products / Cart Section */}
+{view === "products" && (
+  <Products products={productsData} addToCart={addToCart} />
+)}
+
+{view === "cart" && (
+  <Cart
+    cart={cart}
+    removeFromCart={removeFromCart}
+    checkout={checkout}
+  />
+)}
+
+{/* Pricing Section (ALWAYS BELOW) */}
+<PremiumToolsPage />
       <Footer />
 
       <ToastContainer />

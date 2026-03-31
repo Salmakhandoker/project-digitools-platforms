@@ -28,7 +28,7 @@ const Steps = () => {
       <h2 className="text-3xl font-bold mb-12">
        Get Started in 3 Steps
       </h2>
-      <p className="text-gray-500 text-sm">Start using premium digital tools in minutes, not hours.</p>
+      
 
       {/* Steps */}
       <div className="grid md:grid-cols-3 gap-8">
