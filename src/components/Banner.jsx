@@ -8,7 +8,7 @@ const Banner = () => {
         
         {/* RIGHT: Image */}
         <img
-          src="https://i.ibb.co/8g1V2kF/tech.png"
+          src="./public/banner.png"
           className="max-w-sm md:max-w-md rounded-lg shadow-xl"
           alt="Digital workflow banner"
         />
