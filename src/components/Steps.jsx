@@ -1,58 +1,27 @@
 
 
-import { FaSearch, FaShoppingCart, FaCheckCircle } from "react-icons/fa";
-
 const Steps = () => {
-  const steps = [
-    {
-      icon: <FaSearch />,
-      title: "Create Account",
-      desc: "Sign up for free in seconds. No credit card required to get started.",
-    },
-    {
-      icon: <FaShoppingCart />,
-      title: "Choose Products",
-      desc: "Browse our catalog and select the tools that fit your needs.",
-    },
-    {
-      icon: <FaCheckCircle />,
-      title: "Start Creating",
-      desc: "Download and start using your premium tools immediately.",
-    },
-  ];
-
   return (
-    <div className="bg-white py-16 px-6 md:px-12 text-center">
-      
-      {/* Title */}
-      <h2 className="text-3xl font-bold mb-12">
-       Get Started in 3 Steps
-      </h2>
-      
+    <div className="max-w-7xl mx-auto py-20 px-6">
+      <h2 className="text-4xl font-bold text-center mb-4">Get Started in 3 Steps</h2>
+      <p className="text-center text-gray-600 mb-12">Start using premium digital tools in minutes, not hours.</p>
 
-      {/* Steps */}
-      <div className="grid md:grid-cols-3 gap-8">
-        {steps.map((step, i) => (
-          <div key={i} className="p-6 rounded-xl shadow-lg bg-gray-50">
-            
-            {/* Icon */}
-            <div className="text-3xl text-white bg-purple-600 w-14 h-14 flex items-center justify-center rounded-full mx-auto mb-4">
-              {step.icon}
-            </div>
-
-            {/* Title */}
-            <h3 className="text-xl font-semibold">
-              {step.title}
-            </h3>
-
-            {/* Description */}
-            <p className="text-gray-500 mt-2 text-sm">
-              {step.desc}
-              
-            </p>
-
-          </div>
-        ))}
+      <div className="grid md:grid-cols-3 gap-10">
+        <div className="text-center">
+          <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">👤</div>
+          <h3 className="font-semibold text-xl mb-3">Create Account</h3>
+          <p className="text-gray-600">Sign up for free. No credit card required.</p>
+        </div>
+        <div className="text-center">
+          <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">📦</div>
+          <h3 className="font-semibold text-xl mb-3">Choose Products</h3>
+          <p className="text-gray-600">Browse and select the tools that fit your needs.</p>
+        </div>
+        <div className="text-center">
+          <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🚀</div>
+          <h3 className="font-semibold text-xl mb-3">Start Creating</h3>
+          <p className="text-gray-600">Download and start using your premium tools immediately.</p>
+        </div>
       </div>
     </div>
   );

@@ -1,37 +1,18 @@
 
+
 const Pricing = () => {
-  const plans = [
-    { name: "Starter", price: "$0", desc: "Basic features" },
-    { name: "Pro", price: "$29", desc: "Best for professionals", highlight: true },
-    { name: "Enterprise", price: "$99", desc: "Advanced features" },
-  ];
-
   return (
-    <div className="bg-gray-50 py-16 px-6 md:px-12 text-center">
-      
-      <h2 className="text-3xl font-bold mb-10">
-        Simple Pricing
-      </h2>
+    <div className="bg-gray-50 py-20">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-4xl font-bold text-center mb-4">Simple, Transparent Pricing</h2>
+        <p className="text-center text-gray-600 mb-12">Choose the plan that fits your needs</p>
 
-      <div className="grid md:grid-cols-3 gap-6">
-        {plans.map((plan, i) => (
-          <div
-            key={i}
-            className={`p-6 rounded-xl shadow-lg bg-white ${
-              plan.highlight ? "border-2 border-purple-600 scale-105" : ""
-            }`}
-          >
-            <h3 className="text-xl font-bold">{plan.name}</h3>
-            <p className="text-3xl font-bold text-purple-600 mt-3">
-              {plan.price}
-            </p>
-            <p className="text-gray-500 mt-2">{plan.desc}</p>
-
-            <button className="btn btn-primary w-full mt-6">
-              Choose Plan
-            </button>
-          </div>
-        ))}
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          {/* Starter, Pro, Enterprise cards – add your own details here */}
+          <div className="bg-white rounded-3xl p-8 shadow">Starter - $0/month</div>
+          <div className="bg-purple-600 text-white rounded-3xl p-8 shadow scale-105">Pro - $29/month</div>
+          <div className="bg-white rounded-3xl p-8 shadow">Enterprise - $99/month</div>
+        </div>
       </div>
     </div>
   );

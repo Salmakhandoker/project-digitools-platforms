@@ -1,14 +1,17 @@
 
+// src/components/ProductCard.jsx
 
 const ProductCard = ({ product, addToCart }) => {
   return (
     <div className="bg-white shadow-lg rounded-xl p-6 relative hover:shadow-xl transition">
       
       {/* Tag */}
-      <span className={`absolute top-3 right-3 text-xs px-2 py-1 rounded-full
-        ${product.tagType === "best" ? "bg-yellow-400" :
-          product.tagType === "popular" ? "bg-blue-400" :
-          "bg-green-400"} text-white`}>
+      <span 
+        className={`absolute top-3 right-3 text-xs px-2 py-1 rounded-full text-white
+          ${product.tagType === "best" ? "bg-yellow-400" :
+            product.tagType === "popular" ? "bg-blue-400" :
+            "bg-green-400"}`}
+      >
         {product.tag}
       </span>
 
