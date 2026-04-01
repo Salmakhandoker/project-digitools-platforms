@@ -19,7 +19,8 @@ const Navbar = ({ cartCount }) => {
           <li><a>Home</a></li>
           <li><a>Products</a></li>
           <li><a>Pricing</a></li>
-          <li><a>Contact</a></li>
+          <li><a>Testimonials</a></li>
+          <li><a>FAQ</a></li>
         </ul>
       </div>
 
@@ -37,7 +38,7 @@ const Navbar = ({ cartCount }) => {
         </div>
 
         {/* CTA Button */}
-        <button className="btn btn-primary hidden md:block">
+        <button className="btn btn-primary rounded-full hidden md:block">
           Get Started
         </button>
 
@@ -53,7 +54,8 @@ const Navbar = ({ cartCount }) => {
             <li><a>Home</a></li>
             <li><a>Products</a></li>
             <li><a>Pricing</a></li>
-            <li><a>Contact</a></li>
+            <li><a>Testimonials</a></li>
+            <li><a>FAQ</a></li>
           </ul>
         </div>
 

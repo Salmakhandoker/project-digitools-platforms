@@ -26,12 +26,12 @@ const Banner = () => {
           </p>
 
           <div className="flex gap-4">
-            <button className="btn btn-primary">
-              Get Started
+            <button className="btn btn-primary rounded-full">
+              Explore Products
             </button>
 
-            <button className="btn btn-outline">
-              Explore Products
+            <button className="btn btn-outline rounded-full">
+               Watch Demo
             </button>
           </div>
         </div>
