@@ -10,14 +10,18 @@
 
 Built with a clean, modern design and smooth user experience — exactly like a professional product landing page.
 
----
+
 
 ## ✨ Features
 
 - **🛒 Smart Shopping Cart** – Add products seamlessly with instant toast notifications and smooth cart management
-- **📱 Responsive & Modern UI** – Beautiful landing page with stats, 3-step guide, product grid, transparent pricing, and CTA sections
-- **🔄 Toggle Between Products & Cart** – Easy switching between browsing products and viewing your cart with animated buttons
-- **🎨 Premium Product Cards** – Eye-catching cards with tags (Best Try, Popular, New), icons, features list, and smooth hover effects
+
+- **📱 Responsive & Modern UI** – Beautiful landing page with stats, 3-step guide, product grid, transparent pricing, and CTA sections.
+
+- **🔄 Toggle Between Products & Cart** – Easy switching between browsing products and viewing your cart with animated buttons.
+
+- **🎨 Premium Product Cards** – Eye-catching cards with tags (Best Try, Popular, New), icons, features list, and smooth hover effects.
+
 - **🛍️ Real-time Cart Updates** – Live cart count in navbar, subtotal calculation, and remove items functionality
 
 ---
@@ -31,7 +35,8 @@ Built with a clean, modern design and smooth user experience — exactly like a 
 - **JSON Data** – Product management
 - **React State Management** – useState for cart and view toggling
 
----
+
+
 
 ## 🎯 Key Highlights
 
