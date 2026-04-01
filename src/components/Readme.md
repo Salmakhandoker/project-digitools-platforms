@@ -5,8 +5,9 @@
 ![DigiTools Banner](./public/banner.png)
 
 ### Supercharge Your Digital Workflow
+Introduction:
 
-**DigiTools** is a modern SaaS platform that provides powerful AI-powered digital tools to boost productivity, streamline workflows, and help creators and businesses grow faster.
+*DigiTools* is a modern SaaS platform that provides powerful AI-powered digital tools to boost productivity, streamline workflows, and help creators and businesses grow faster.
 
 Built with a clean, modern design and smooth user experience — exactly like a professional product landing page.
 
@@ -40,9 +41,9 @@ Built with a clean, modern design and smooth user experience — exactly like a 
 
 ## 🎯 Key Highlights
 
-- Fully responsive design (Mobile + Desktop)
-- Professional SaaS-style landing page
-- Interactive product cards with "Buy Now" functionality
-- Clean cart system with remove & checkout features
-- Modern gradient design with purple accent color
-- Smooth user experience with hover animations
+- Fully responsive design (Mobile + Desktop).
+- Professional SaaS-style landing page.
+- Interactive product cards with "Buy Now" functionality.
+- Clean cart system with remove & checkout features.
+- Modern gradient design with purple accent color.
+- Smooth user experience with hover animations.
